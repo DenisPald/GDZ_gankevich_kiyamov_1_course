@@ -1,0 +1,5 @@
+Создаем канал
+mkfifo main
+
+Передаем в канал текст
+echo Hello World! > main
